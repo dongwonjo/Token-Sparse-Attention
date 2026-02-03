@@ -1,5 +1,12 @@
 # Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection
 
+<div align=center>
+<img width=90% src="./images/TokenSparseAttention.png"/>
+</div>
+</br>
+
+This is the official repository of **"Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection"**.
+
 ## Usage
 ### 1. Installation
 Installation with the requirements package.
