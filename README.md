@@ -5,7 +5,7 @@
 </div>
 </br>
 
-This is the official repository of **"Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection"**.
+This is the official repository of **"Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection"** (WIP).
 
 ## Usage
 ### 1. Installation
