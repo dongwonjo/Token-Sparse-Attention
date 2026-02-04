@@ -1,4 +1,13 @@
-# Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection
+
+
+<h1 align="center">Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection</h1>
+
+<div align="center">
+    
+[![arxiv](https://img.shields.io/badge/arXiv-2602.03216-b31b1b.svg)](https://arxiv.org/abs/2602.03216)
+[![code](https://img.shields.io/badge/github-code-181717?logo=github&logoColor=white)](https://github.com/dongwonjo/Token-Sparse-Attention)
+
+</div>
 
 <div align=center>
 <img width=90% src="./images/TokenSparseAttention.png"/>
