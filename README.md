@@ -27,3 +27,15 @@ Inference with Token Sparse Attention methods and evaluation and speedup benchma
 # Run Evaluation
 ./scripts/eval.sh
 ```
+
+## Citation
+If you use the Token Sparse Attention approach in your research,  please consider citing:
+
+```
+@article{token_sparse,
+  title={Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection},
+  author={Dongwon Jo, Beomseok Kang, Jiwon Song, Jae-Joon Kim},
+  journal={arXiv preprint arXiv:2602.03216},
+  year={2026}
+  }
+```
