@@ -14,15 +14,20 @@
 </div>
 </br>
 
-This is the official repository of **"Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection"** (WIP).
+This is the official repository of **"Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection"**.
+Token Sparse Attention is a lightweight and dynamic token-level sparsification mechanism for efficient long-context inference in large language models.
+Token Sparse Attention performs per-head token selection at each layer and scatters the attention output back into the original sequence dimension. 
+This reversible design allows token relevance to be re-evaluated across all layers and heads without permanently discarding any tokens. 
+It is fully compatible with existing dense and sparse attention kernels, enabling seamless composition with prior acceleration methods.
+Experimental results show that Token Sparse Attention consistently improves the accuracy–latency trade-off, achieving up to ×3.23 attention speedup at 128K context with less than 1% accuracy degradation.
 
 ## Usage
 ### 1. Installation
 Installation with the requirements package.
 ```
-conda create -n token_sparse python=3.10
+conda create -n token_sparse python=3.10 -y
 conda activate token_sparse
-cd token_sparse
+cd Token-Sparse-Attention
 ./install.sh
 ```
 
@@ -32,6 +37,7 @@ Inference with Token Sparse Attention methods and evaluation and speedup benchma
 ```
 # Run benchmark
 ./scripts/benchmark_attention.sh
+./scripts/benchmark_prefill.sh
 
 # Run Evaluation
 ./scripts/eval.sh

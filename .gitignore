@@ -2,7 +2,6 @@ __pycache__
 cache
 build
 dist
-outputs
 *.pt
 *egg-info*
 *.csv
@@ -17,6 +16,7 @@ dev
 *.pyc
 .idea
 *.zip
+outputs
 cache
 log
 cuda/build
