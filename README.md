@@ -42,6 +42,10 @@ Inference with Token Sparse Attention methods and evaluation and speedup benchma
 # Run Evaluation
 ./scripts/eval.sh
 ```
+## Acknowledgements
+We have integrated the baseline methods ([FlexPrefill](https://github.com/ByteDance-Seed/FlexPrefill), [Minference](https://github.com/microsoft/minference), [X-Attention](https://github.com/mit-han-lab/x-attention)) for experiments and evaluations.
+
+Thanks to their open-source contributions.
 
 ## Citation
 If you use the Token Sparse Attention approach in your research,  please consider citing:
