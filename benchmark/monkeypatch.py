@@ -87,6 +87,12 @@ def replace_mistral(model, args):
             layer.self_attn.min_budget = 1024
         if args.attn_method == "minference":
             layer.self_attn.adaptive_budget = args.adaptive_budget
+        if args.attn_method == "xattention":
+            layer.self_attn.block_size = 128
+            layer.self_attn.xattention_stride = args.xattention_stride
+            layer.self_attn.xattention_threshold = args.xattention_threshold
+            layer.self_attn.xattention_use_triton = args.xattention_use_triton
+            layer.self_attn.xattention_chunk_size = args.xattention_chunk_size
     
     if args.token_sparse:
         set_model(model, args)
