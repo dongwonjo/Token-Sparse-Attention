@@ -39,7 +39,7 @@ Inference with Token Sparse Attention methods and evaluation and speedup benchma
 ./scripts/benchmark_attention.sh
 ./scripts/benchmark_prefill.sh
 
-# Run Evaluation
+# Run evaluation
 ./scripts/eval.sh
 ```
 ## Acknowledgements
