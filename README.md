@@ -4,6 +4,7 @@
     
 [![arxiv](https://img.shields.io/badge/arXiv-2602.03216-b31b1b.svg)](https://arxiv.org/abs/2602.03216)
 [![code](https://img.shields.io/badge/github-code-181717?logo=github&logoColor=white)](https://github.com/dongwonjo/Token-Sparse-Attention)
+[![project](https://img.shields.io/badge/🌐%20Project%20Page-4285F4?style=flat)](https://dongwonjo.github.io/portfolio/token_sparse_attention/)
 
 </div>
 
