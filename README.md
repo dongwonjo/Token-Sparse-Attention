@@ -21,6 +21,13 @@ This reversible design allows token relevance to be re-evaluated across all laye
 It is fully compatible with existing dense and sparse attention kernels, enabling seamless composition with prior acceleration methods.
 Experimental results show that Token Sparse Attention consistently improves the accuracy–latency trade-off, achieving up to ×3.23 attention speedup at 128K context with less than 1% accuracy degradation.
 
+## Demo
+
+<div align="center">
+  <video src="./images/TokenSparseAttention_Demo_1080p.mp4" autoplay loop muted playsinline width="90%">
+  </video>
+</div>
+
 ## Usage
 ### 1. Installation
 Installation with the requirements package.
