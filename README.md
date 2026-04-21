@@ -1,5 +1,3 @@
-
-
 <h1 align="center">Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection</h1>
 
 <div align="center">
@@ -24,7 +22,7 @@ Experimental results show that Token Sparse Attention consistently improves the 
 ## Demo
 
 <div align="center">
-  <video src="./images/TokenSparseAttention_Demo_1080p.mp4" autoplay loop muted playsinline width="90%">
+  <video src="https://github.com/user-attachments/assets/ec807957-39a1-48fe-86d9-18388bb3542b" autoplay loop muted playsinline width="90%">
   </video>
 </div>
 
