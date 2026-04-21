@@ -1,7 +1,7 @@
 # meta-llama/Llama-3.1-8B-Instruct
 # mistralai/Mistral-Nemo-Instruct-2407
 
-# ATTN_METHOD: vanilla, minference, flexprefill
+# ATTN_METHOD: vanilla, minference, flexprefill, xattention
 # --token_sparse: True, False
 
 DEVICE=0
