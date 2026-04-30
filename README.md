@@ -1,4 +1,4 @@
-<h1 align="center">Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection</h1>
+<h1 align="center">[ICML 2026] Token Sparse Attention: Efficient Long-Context Inference with Interleaved Token Selection</h1>
 
 <div align="center">
     
