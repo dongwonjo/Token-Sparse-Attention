@@ -40,7 +40,7 @@ cd Token-Sparse-Attention
 ```
 
 ### 2. Quick Start
-Inference with Token Sparse Attention methods and evaluation and speedup benchmark.
+Inference with Token Sparse Attention methods for evaluation and speedup benchmark.
 
 ```
 # Run benchmark
